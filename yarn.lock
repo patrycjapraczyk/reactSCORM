@@ -6028,6 +6028,12 @@ pinkie@^2.0.0:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/pinkie/-/pinkie-2.0.4.tgz#72556b80cfa0d48a974e80e77248e80ed4f7f870"
 
+pipwerks-scorm-api-wrapper@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/pipwerks-scorm-api-wrapper/-/pipwerks-scorm-api-wrapper-0.1.2.tgz#0bab10a2922ed8c3f76d0f971dcefda546fd8f0a"
+  dependencies:
+    scorm-api-wrapper "git+https://github.com/pipwerks/scorm-api-wrapper.git"
+
 pkg-dir@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/pkg-dir/-/pkg-dir-1.0.0.tgz#7a4b508a8d5bb2d629d447056ff4e9c9314cf3d4"
@@ -6881,7 +6887,7 @@ react-dev-utils@^8.0.0:
     strip-ansi "5.0.0"
     text-table "0.2.0"
 
-react-dom@16.8.4:
+react-dom@^16.8.4:
   version "16.8.4"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.8.4.tgz#1061a8e01a2b3b0c8160037441c3bf00a0e3bc48"
   dependencies:
@@ -6897,6 +6903,10 @@ react-error-overlay@^5.1.4:
 react-is@^16.8.1:
   version "16.8.4"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.4.tgz#90f336a68c3a29a096a3d648ab80e87ec61482a2"
+
+react-scorm-provider@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/react-scorm-provider/-/react-scorm-provider-0.1.2.tgz#dfd04a8300b86f55935a4733a1b139cff2493d95"
 
 react-scripts@2.1.8:
   version "2.1.8"
@@ -6951,7 +6961,7 @@ react-scripts@2.1.8:
   optionalDependencies:
     fsevents "1.2.4"
 
-react@16.8.4:
+react@^16.8.4:
   version "16.8.4"
   resolved "https://registry.yarnpkg.com/react/-/react-16.8.4.tgz#fdf7bd9ae53f03a9c4cd1a371432c206be1c4768"
   dependencies:
@@ -7360,6 +7370,10 @@ schema-utils@^1.0.0:
     ajv "^6.1.0"
     ajv-errors "^1.0.0"
     ajv-keywords "^3.1.0"
+
+"scorm-api-wrapper@git+https://github.com/pipwerks/scorm-api-wrapper.git":
+  version "1.1.20160322"
+  resolved "git+https://github.com/pipwerks/scorm-api-wrapper.git#82e455b4032ee08febf64d2fa2bf1aacaebaa446"
 
 select-hose@^2.0.0:
   version "2.0.0"
